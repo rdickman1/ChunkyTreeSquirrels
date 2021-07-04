@@ -1,0 +1,10 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/mot/Documents/unity_projects/2020.3.13f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e29b38e10b415e104bfd6e0c572c1326
+# Starting compiling UnityEditor.TestRunner.dll
+/home/mot/Documents/unity_projects/2020.3.13f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4dd48716fd591184698fcfeb6d7a2325
+# Starting compiling Unity.VisualStudio.Editor.dll
+/home/mot/Documents/unity_projects/2020.3.13f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9a65781fb2a9cf53a88e99c689ef25ba
+# Starting compiling Unity.Rider.Editor.dll
+/home/mot/Documents/unity_projects/2020.3.13f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-547cba069b42751b1a55b22120fc1be2
+# Starting compiling Assembly-CSharp.dll
+/home/mot/Documents/unity_projects/2020.3.13f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e74be10182824681892f8a0505ee1c0f
