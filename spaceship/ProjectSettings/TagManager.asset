@@ -3,12 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tilemap
+  - Enemy
+  - Weapon
+  - Melee Upgrade
+  - Shield Upgrade
+  - Gun Upgrade
+  - Health Upgrade
+  - FxTemporaire
+  - Ship
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacle
   - Water
   - UI
   - 
@@ -38,6 +48,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4147705693
+    locked: 0
+  - name: Midground
+    uniqueID: 849976395
+    locked: 0
+  - name: Foreground
+    uniqueID: 1861791499
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Details
+    uniqueID: 1146556211
     locked: 0

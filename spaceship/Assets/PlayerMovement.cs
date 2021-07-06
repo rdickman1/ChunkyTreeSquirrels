@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     public Rigidbody2D rb;
     public Camera cam;
+    public GameObject Weapon1;
+    public GameObject Weapon2;
 
     public float moveSpeed = 5f;
 

@@ -5,7 +5,10 @@ using UnityEngine;
 public class ShipWeapon : MonoBehaviour
 {
     #region Attributes
+    public Transform firePoint;
     public GameObject bulletPrefab;
+
+    public float bulletForce = 20f;
 
     public float bulletSpawnDistance = .5f;
 
@@ -16,14 +19,22 @@ public class ShipWeapon : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            FireBullet(transform.up * bulletSpawnDistance + transform.position, transform.rotation);
+            Shoot();
         }
     }
 
     #endregion
-    private void FireBullet(Vector3 position, Quaternion rotation)
+
+    #region Shoot
+    void Shoot()
     {
-        Instantiate(bulletPrefab, position, rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+       
     }
+
+
+    #endregion
 
 }
