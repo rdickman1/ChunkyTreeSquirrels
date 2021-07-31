@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tilemap
+  - Enemy
+  - Weapon
+  - Melee Upgrade
+  - Shield Upgrade
+  - Gun Upgrade
+  - Health Upgrade
+  - FxTemporaire
+  - Ship
+  - Bullet
+  - Ship1
+  - Ship2
+  - Ship3
+  - Ship4
+  - Shield
+  - Melee
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Obstacle
+  - Water
+  - UI
+  - P1
+  - P2
+  - P3
+  - P4
+  - B1
+  - B2
+  - B3
+  - B4
+  - Upgrades
+  - Melee
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4147705693
+    locked: 0
+  - name: Midground
+    uniqueID: 849976395
+    locked: 0
+  - name: Foreground
+    uniqueID: 1861791499
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Details
+    uniqueID: 1146556211
+    locked: 0
+  - name: Player
+    uniqueID: 3577345209
+    locked: 0
